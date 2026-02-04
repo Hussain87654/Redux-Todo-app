@@ -34,9 +34,9 @@ const TodoInput = () => {
       <Button 
         variant="contained" 
         onClick={handleAdd}
-        className="bg-linear-to-r from-violet-600 to-indigo-600 rounded-xl px-6 shadow-lg hover:scale-105 transition-transform"
+        className="bg-linear-to-r from-violet-600 to-indigo-600 rounded-3xl px-6 shadow-lg hover:scale-105 transition-transform"
       >
-        <PlusCircle className="mr-2" size={20} /> Add
+        <PlusCircle className="mr-2" size={45} /> Add
       </Button>
     </div>
   );

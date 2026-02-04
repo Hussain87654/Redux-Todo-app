@@ -11,7 +11,7 @@ const todoSlice = createSlice({
     addTodo: (state, action) => {
       // Direct push because Redux Toolkit uses Immer library internally
       state.todo.push({ 
-        id: Date.now(), 
+        id: crypto.randomUUID(), 
         text: action.payload, 
         completed: false 
       });
